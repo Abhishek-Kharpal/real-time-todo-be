@@ -11,5 +11,6 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-    }
+    },
+    "eslint new-cap": ["error", { "capIsNewExceptions": ["IndexController"] }]
 }
