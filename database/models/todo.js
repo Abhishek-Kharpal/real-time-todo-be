@@ -4,7 +4,7 @@ const {
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   /**
-   * @description Todo model
+   * @description Todo model containing the schema (content,title) for todo.
    * @class todo
    * @extends {Model}
    */
