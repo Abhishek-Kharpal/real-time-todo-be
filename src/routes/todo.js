@@ -1,5 +1,6 @@
 const express = require('express');
 const todoController = require('../controllers/todo');
+// eslint-disable-next-line new-cap
 const router = express.Router();
 
 router.route('/')
